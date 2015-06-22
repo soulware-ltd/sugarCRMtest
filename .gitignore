@@ -1,0 +1,21 @@
+.htaccess
+/cache/*
+!/cache/.gitkeep
+custom/history/*
+custom/modulebuilder/*
+custom/working/*
+custom/blowfish/*
+custom/modules/*/Ext/
+/config.php
+
+#temp and logs
+*~
+*.log
+
+#uploads
+/upload/*
+!/upload/upgrades/
+
+#IDE
+/nbproject/*
+.idea/*
