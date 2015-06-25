@@ -1,0 +1,9 @@
+2013-11-12 09:16
+-modules/SugarFeed/language/hu_hu.lang.php -> új lehetőségt javítás 't' => 'et'
+/**************************************************************************************/
+2013-11-08 10:53
+-modules/Charts/language/hu_hu.lang.php -> aljára +~10 sor fordítás
+-modules/Leads/language/hu_hu.lang.php -> "vagy kapcsolat kiválasztása" sor hozzáadva
+-modules/SugarFeed/language/hu_hu.lang.php -> teljes fájl új
+-modules/Calendar/Dashlets/CalendarDashlets/CalendarDashlet.hu_hu.lang.php -> "Dashlets" alkönyvtártól hozzáadva
+-modules/Charts/Dashlets/ összes mappa fordítás lehetőséggel!

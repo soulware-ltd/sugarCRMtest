@@ -1,0 +1,26 @@
+#Üres SugarCRM CE teszteléshez
+
+##Telepítési instrukciók (Linux terminal)
+
+1. Adatbázis létrehozása tetszőleges néven
+2. Terminálban webrootból kiadva: 
+
+találtam kb 5 verziót a crm-ből, csináltam egy újat az élesből. a többit majd @Laca szemeteljük ki vmikor.
+
+http://devel1.soulware.hu
+admin/admin
+
+(apache virtual server-nél a régi devel1-eset irányítottam át a voldan_devel-re)
+
+webroot: developer2:/var/www/voldan_devel/
+git: developer2:/var/git/voldan_devel
+
+Install fejlesztőinek 777 joggal:
+git clone git@developer2:/var/git/voldan_devel
+cd voldan_devel
+mkdir cache
+cp config.default.php config.php
+nano config.php => db adatok beállítása
+sudo chown www-data:www-data -R *
+sudo chmod 777 -R *
+mysql -u [user] -p [dbname] < migrations/2015-04-23-voldan_devel-full_dump.sql
